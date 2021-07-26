@@ -1,0 +1,131 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <title>On-line Grocery Store</title>-->
+<!--    <link rel="stylesheet" href="style.css" type="text/css" />-->
+    
+<!--  </head>-->
+<!--  <body>-->
+
+<!--  <div>-->
+<!--    <?php -->
+<!--      include 'db_connection.php';-->
+<!--      include 'string_starting.php';-->
+      //include 'functions.php';
+<!--    ?>-->
+<!--  </div>-->
+
+<!--    <div class="grid-container">-->
+<!--      <div class="left_hand_frame">-->
+        <!-- Frozen Food Dropdown Menu -->
+<!--    <div class="dropdown dropdown_frozen_food">-->
+<!--    <button class="dropbtn">Frozen Food</button>-->
+<!--      <div class="dropdown-content">-->
+<!--        <a onclick="requestDataForThisItem(this.id)" id=1000>Fish Fingers (500g)</a>-->
+<!--        <a onclick="requestDataForThisItem(this.id)" id=1001>Fish Fingers (1000g)</a>-->
+<!--        <a href="#" id=1002>Hamburger Patties</a>-->
+<!--        <a href="#" id=1003>Shelled Prawns</a>-->
+<!--        <a href="#" id=1004>Tub Ice Cream (1L)</a>-->
+<!--        <a href="#" id=1005>Tub Ice Cream (2L)</a>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- Fresh Food Dropdown Menu -->
+<!--    <div class="dropdown dropdown_fresh_food">-->
+<!--    <button class="dropbtn">Fresh Food</button>-->
+<!--      <div class="dropdown-content">-->
+<!--        <a href="#" id=3000>Cheddar Cheese (500g)</a>-->
+<!--        <a href="#" id=3001>Cheddar Cheese (1000g)</a>-->
+<!--        <a href="#" id=3002>T'Bone Steak</a>-->
+<!--        <a href="#" id=3003>Navel Oranges</a>-->
+<!--        <a href="#" id=3004>Bananas</a>-->
+<!--        <a href="#" id=3005>Peaches</a>-->
+<!--        <a href="#" id=3006>Grapes</a>-->
+<!--        <a href="#" id=3007>Apples</a>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- Beverages Dropdown Menu -->
+<!--    <div class="dropdown dropdown_beverages">-->
+<!--    <button class="dropbtn">Beverages</button>-->
+<!--      <div class="dropdown-content">-->
+<!--        <a href="#" id=4000>Earl Grey Tea Bags (Pack 25)</a>-->
+<!--        <a href="#" id=4001>Earl Grey Tea Bags (Pack 100)</a>-->
+<!--        <a href="#" id=4002>Earl Grey Tea Bags (Pack 200)</a>-->
+<!--        <a href="#" id=4003>Instant Coffee (200g)</a>-->
+<!--        <a href="#" id=4004>Instant Coffee (500g)</a>-->
+<!--        <a href="#" id=4005>Chocolate Bar</a>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- Home Health Dropdown Menu -->
+<!--    <div class="dropdown dropdown_home_health">-->
+<!--    <button class="dropbtn">Home/Health</button>-->
+<!--      <div class="dropdown-content">-->
+<!--        <a href="#" id=2000>Panadol (Pack 24)</a>-->
+<!--        <a href="#" id=2001>Panadol (Bottle 50)</a>-->
+<!--        <a href="#" id=2002>Bath Soap</a>-->
+<!--        <a href="#" id=2003>Garbage Bags Small (Pack 10)</a>-->
+<!--        <a href="#" id=2003>Garbage Bags Large (Pack 50)</a>-->
+<!--        <a href="#" id=2005>Washing Powder</a>-->
+<!--        <a href="#" id=2006>Laundry Bleach</a>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- Pet Food Dropdown Menu -->
+<!--    <div class="dropdown dropdown_pet_food">-->
+<!--    <button class="dropbtn">Pet Food</button>-->
+<!--      <div class="dropdown-content">-->
+<!--        <a href="#" id=5000>Dry Dog Food (5 KG Pack)</a>-->
+<!--        <a href="#" id=5001>Dry Dog Food (1 KG Pack)</a>-->
+<!--        <a href="#" id=5002>Bird Food</a>-->
+<!--        <a href="#" id=5003>Cat Food</a>-->
+<!--        <a href="#" id=5004>Fish Food</a>-->
+<!--      </div>-->
+<!--    </div>-->
+        
+<!--    </div>-->
+        
+        
+      
+<!--      </div>-->
+<!--      <div class="top_right_frame" id="top_right_fram">-->
+<!--        top_right_frame-->
+<!--        <script>-->
+<!--          function myFunction() {-->
+<!--            document.getElementById("top_right_fram").innerHTML = "Paragraph changed!";-->
+<!--          }-->
+<!--        </script>-->
+<!--        <?PHP -->
+<!--          function requestDataForThisItem($item_id) {-->
+          //code to be executed;
+<!--          myFunction();-->
+<!--          $link = mysqli_connect("localhost", "uts", "internet", "assignment1") or die("Could not connect to Server");-->
+<!--          $query_string = "select * from products where id =".$item_id;-->
+<!--          $result = mysqli_query($link, $query_string);-->
+<!--          $num_rows = mysqli_num_rows($result);-->
+<!--          if ($num_rows > 0){-->
+<!--              while ($a_row = mysqli_fetch_row($result)) {-->
+<!--                echo "<table> <tr> ";-->
+<!--                foreach ($a_row as $field) {-->
+                    // echo $field;
+<!--                    echo "<td>".$field."</td>\t";-->
+<!--                }-->
+<!--                echo "</tr> </table>";-->
+<!--              }-->
+        //   print_r($db_data);
+        
+<!--    }-->
+<!--      mysqli_close($link);-->
+<!--        }-->
+<!--        ?>-->
+<!--      </div>-->
+<!--      <div class="bottom_right_frame">-->
+<!--        bot-->
+<!--      </div>-->
+<!--    </div>-->
+
+    
+<!--  </body>-->
+<!--</html> -->
+
